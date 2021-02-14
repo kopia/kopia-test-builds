@@ -10,6 +10,7 @@ jobs:
     steps:
     - uses: dev-drprasad/delete-older-releases@v0.1.0
       with:
+        repo: kopia/kopia-ui-release 
         keep_latest: 10
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
