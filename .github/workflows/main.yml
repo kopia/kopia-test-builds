@@ -1,0 +1,15 @@
+name: Cleanup Old Releases
+
+# Controls when the action will run. 
+on:
+  workflow_dispatch:
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - uses: dev-drprasad/delete-older-releases@v0.1.0
+      with:
+        keep_latest: 10
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
