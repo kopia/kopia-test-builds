@@ -13,6 +13,6 @@ jobs:
     - uses: dev-drprasad/delete-older-releases@v0.1.0
       with:
         repo: kopia/kopia-ui-release 
-        keep_latest: 30
+        keep_latest: 25
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
