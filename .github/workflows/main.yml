@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: dev-drprasad/delete-older-releases@v0.1.0
       with:
-        repo: kopia/kopia-ui-release 
+        repo: kopia/kopia-test-builds
         keep_latest: 25
         delete_tags: true
       env:
