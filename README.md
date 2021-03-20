@@ -1,2 +1,3 @@
-# kopia-ui-release
-Pre-releases for Kopia UI
+# Kopia Test Builds
+
+Test builds for Kopia, may not be stable, use at your own risks.
