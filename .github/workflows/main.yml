@@ -1,5 +1,7 @@
 name: Cleanup Old Releases
-
+permissions:
+  contents: write
+  
 # Controls when the action will run. 
 on:
   workflow_dispatch:
