@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: dev-drprasad/delete-older-releases@v0.1.0
+    - uses: dev-drprasad/delete-older-releases@v0.3.2
       with:
         repo: kopia/kopia-test-builds
         keep_latest: 25
